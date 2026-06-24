@@ -2,7 +2,7 @@
 
 This code repository is associated with the paper "D3F-Det: Progressive Detail Preservation and Feature Reuse for Aerial Small Object Detection", which is currently under review at The Visual Computer journal. Please cite our paper if you use this code for your research.
 
----
+
 
 ## 1. Project Introduction
 
@@ -212,4 +212,4 @@ Ensure the weight files are placed in the `runs/` directory with the correct fil
 
 ## 12. Contact
 
-If you encounter any problems during code reproduction, please contact us via email: **[Your Contact Email]**
+If you encounter any problems during code reproduction, please contact us via email: **[liujiaqing@zua.edu.cn]**
