@@ -59,13 +59,13 @@ For each dataset, open the corresponding YAML configuration file (`visdrone.yaml
 
 ## 4. Pretrained Weights
 
-Pretrained weights for all three datasets are provided in the `runs/` directory:
+Pretrained weights for all three datasets are provided in the `weight/` directory:
 
 | Dataset | Weight File | mAP@0.5 | mAP@0.5:0.95 |
 |---|---|---|---|
-| VisDrone2019 | `runs/VisDrone.pt` | 49.5 | 30.3 |
-| AI-TOD | `runs/AI-TOD.pt` | 54.9 | 28.2 |
-| TinyPerson | `runs/TinyPerson.pt` | 33.0 | 10.5 |
+| VisDrone2019 | `weight/VisDrone.pt` | 49.5 | 30.3 |
+| AI-TOD | `weight/AI-TOD.pt` | 54.9 | 28.2 |
+| TinyPerson | `weight/TinyPerson.pt` | 33.0 | 10.5 |
 
 ---
 
