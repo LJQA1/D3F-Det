@@ -177,7 +177,28 @@ pip install -r full_env.txt
 
 ---
 
-## 10. DOI & Permanent Archive
+
+## 10. Code Version & Permanent Archive
+
+| Item | Value |
+|---|---|
+| GitHub Release | **v2.0** |
+| Commit Hash | **546a8b3** |
+| Zenodo DOI | **10.5281/zenodo.19162854** |
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19162854.svg)](https://doi.org/10.5281/zenodo.19162854)
+
+The GitHub Release v2.0 and the Zenodo archive both correspond exactly to the code version used in the submitted manuscript. To download the paper-specific code snapshot:
+
+```bash
+git clone https://github.com/LJQA1/D3F-Det.git
+cd D3F-Det
+git checkout 546a8b3
+```
+
+
+
+## 11. DOI & Permanent Archive
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19162854.svg)](https://doi.org/10.5281/zenodo.19162854)
 
@@ -185,7 +206,7 @@ Repository DOI: **10.5281/zenodo.19162854**
 
 ---
 
-## 11. Troubleshooting
+## 12. Troubleshooting
 
 ### "CUDA out of memory"
 Reduce the batch size in the dataset YAML configuration file, or use a smaller input size (e.g., `--imgsz 416`).
@@ -210,6 +231,6 @@ Ensure the weight files are placed in the `runs/` directory with the correct fil
 
 ---
 
-## 12. Contact
+## 13. Contact
 
 If you encounter any problems during code reproduction, please contact us via email: **[liujiaqing@zua.edu.cn]**
