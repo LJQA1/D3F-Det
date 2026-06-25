@@ -48,12 +48,12 @@ Place the downloaded and unzipped datasets into the `data/` folder with a catego
 
 ```
 data/
-├── visdrone/
-├── ai-tod/
-└── tinyperson/
+├── VisDrone/
+├── AI-TOD/
+└── TinyPerson/
 ```
 
-For each dataset, open the corresponding YAML configuration file (`VisDrone.yaml`, `ai-tod.yaml`, `tinyperson.yaml`) and modify the dataset path to your local absolute path.
+For each dataset, open the corresponding YAML configuration file (`VisDrone.yaml`, `ai-tod.yaml`, `TinyPerson.yaml`) and modify the dataset path to your local absolute path.
 
 ---
 
@@ -80,10 +80,10 @@ The project uses a unified training script `train.py`. For different datasets, o
 python train.py --config DBDown+DFMS+3S-RN.yaml --dataset visdrone.yaml
 
 # Train on AI-TOD
-python train.py --config DBDown+DFMS+3S-RN.yaml --dataset ai-tod.yaml
+python train.py --config DBDown+DFMS+3S-RN.yaml --dataset AI-TOD.yaml
 
 # Train on TinyPerson
-python train.py --config DBDown+DFMS+3S-RN.yaml --dataset tinyperson.yaml
+python train.py --config DBDown+DFMS+3S-RN.yaml --dataset TinyPerson.yaml
 ```
 
 Trained model weights and training logs (Excel format, containing per-epoch metrics) are automatically saved to the `runs/` directory. The Excel log files record Precision, Recall, mAP@0.5, and mAP@0.5:0.95 for every epoch across all three datasets.
@@ -101,10 +101,10 @@ Independent validation scripts are provided for each dataset. These scripts load
 python val_VisDrone.py --weights runs/VisDrone.pt --dataset VisDrone.yaml
 
 # Table 3 -- AI-TOD results
-python val_ai-tod.py --weights runs/AI-TOD.pt --dataset ai-tod.yaml
+python val_ai-tod.py --weights runs/AI-TOD.pt --dataset AI-TOD.yaml
 
 # Table 4 -- TinyPerson results
-python val_tinyperson.py --weights runs/TinyPerson.pt --dataset tinyperson.yaml
+python val_TinyPerson.py --weights runs/TinyPerson.pt --dataset TinyPerson.yaml
 ```
 
 ### Reproducing Ablation Tables (Tables 5--6)
@@ -228,7 +228,7 @@ Repository DOI: **10.5281/zenodo.20822133**
 Reduce the batch size in the dataset YAML configuration file, or use a smaller input size (e.g., `--imgsz 416`).
 
 ### "Dataset path not found"
-Ensure you have modified the `path` field in the corresponding dataset YAML file (`VisDrone.yaml`, `ai-tod.yaml`, `tinyperson.yaml`) to point to your local dataset directory.
+Ensure you have modified the `path` field in the corresponding dataset YAML file (`VisDrone.yaml`, `ai-tod.yaml`, `TinyPerson.yaml`) to point to your local dataset directory.
 
 ### "ModuleNotFoundError"
 Install the missing package via pip:
