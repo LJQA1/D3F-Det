@@ -216,9 +216,9 @@ git checkout 546a8b3
 
 ## 11. DOI & Permanent Archive
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19162854.svg)](https://doi.org/10.5281/zenodo.19162854)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20822133.svg)](https://doi.org/10.5281/zenodo.20822133)
 
-Repository DOI: **10.5281/zenodo.19162854**
+Repository DOI: **10.5281/zenodo.20822133**
 
 ---
 
