@@ -108,15 +108,15 @@ The following figures present side-by-side detection comparisons between D3F-Det
 
 **VisDrone2019:**
 
-![VisDrone2019 comparison](img/visdrone可视化图.pdf)
+![VisDrone2019 comparison](img/vs1.png)
 
 **AI-TOD:**
 
-![AI-TOD comparison](img/RFig11.pdf)
+![AI-TOD comparison](img/ai1.png)
 
 **TinyPerson:**
 
-![TinyPerson comparison](img/RFig12.pdf)
+![TinyPerson comparison](img/tp1.png)
 
 ---
 
