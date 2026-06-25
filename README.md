@@ -200,7 +200,7 @@ pip install -r full_env.txt
 |---|---|
 | GitHub Release | **v2.0** |
 | Commit Hash | **546a8b3** |
-| Zenodo DOI | **10.5281/zenodo.19162854** |
+| Zenodo DOI | **10.5281/zenodo.20822133** |
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19162854.svg)](https://doi.org/10.5281/zenodo.19162854)
 
