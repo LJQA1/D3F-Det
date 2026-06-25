@@ -8,18 +8,10 @@ from ultralytics import YOLO
 
 if __name__ == '__main__':
 
-    #model = YOLO(model='2.yaml')
-
-    #model = YOLO(model='DBDown.yaml')
-    #model = YOLO(model='DFMS.yaml')
-    #model = YOLO(model='3S-RN.yaml')
-    #model = YOLO(model='DBDown+DFMS.yaml')
     model = YOLO(model='DBDown+DFMS+3S-RN.yaml')
-    #model = YOLO(model='yolo11.yaml')
+  
 
 
-
-    #model.load('C:/LJQ/ultralytics-main-ljq/runs/A+B+C+Light+HEAD/train/weights/best.pt') # 加载预训练权重,改进或者做对比实验时候不建议打开，因为用预训练模型整体精度没有很明显的提升
     model.train(data='Tinyperson.yaml',
                 imgsz=640,
                 epochs=200,
