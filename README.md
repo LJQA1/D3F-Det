@@ -53,7 +53,7 @@ data/
 └── tinyperson/
 ```
 
-For each dataset, open the corresponding YAML configuration file (`visdrone.yaml`, `ai-tod.yaml`, `tinyperson.yaml`) and modify the dataset path to your local absolute path.
+For each dataset, open the corresponding YAML configuration file (`VisDrone.yaml`, `ai-tod.yaml`, `tinyperson.yaml`) and modify the dataset path to your local absolute path.
 
 ---
 
@@ -98,7 +98,7 @@ Independent validation scripts are provided for each dataset. These scripts load
 
 ```bash
 # Table 2 -- VisDrone2019 results
-python val_visdrone.py --weights runs/VisDrone.pt --dataset visdrone.yaml
+python val_VisDrone.py --weights runs/VisDrone.pt --dataset VisDrone.yaml
 
 # Table 3 -- AI-TOD results
 python val_ai-tod.py --weights runs/AI-TOD.pt --dataset ai-tod.yaml
@@ -109,7 +109,7 @@ python val_tinyperson.py --weights runs/TinyPerson.pt --dataset tinyperson.yaml
 
 ### Reproducing Ablation Tables (Tables 5--6)
 
-Tables 5 and 6 are produced by running `val_visdrone.py` with different model configurations and DFMS placements as described in Section 4.5 of the paper.
+Tables 5 and 6 are produced by running `val_VisDrone.py` with different model configurations and DFMS placements as described in Section 4.5 of the paper.
 
 The validation process automatically outputs evaluation metrics such as mAP@0.5 and mAP@0.5:0.95. Visual results and metric files are saved to the `results/` directory.
 
@@ -228,7 +228,7 @@ Repository DOI: **10.5281/zenodo.20822133**
 Reduce the batch size in the dataset YAML configuration file, or use a smaller input size (e.g., `--imgsz 416`).
 
 ### "Dataset path not found"
-Ensure you have modified the `path` field in the corresponding dataset YAML file (`visdrone.yaml`, `ai-tod.yaml`, `tinyperson.yaml`) to point to your local dataset directory.
+Ensure you have modified the `path` field in the corresponding dataset YAML file (`VisDrone.yaml`, `ai-tod.yaml`, `tinyperson.yaml`) to point to your local dataset directory.
 
 ### "ModuleNotFoundError"
 Install the missing package via pip:
