@@ -143,15 +143,15 @@ Side-by-side detection comparisons between D3F-Det and the baseline YOLOv12-s on
 
 **VisDrone2019:**
 
-![VisDrone2019 comparison](img/visdrone可视化图.pdf)
+![VisDrone2019 comparison](img/vs1)
 
 **AI-TOD:**
 
-![AI-TOD comparison](img/RFig11.pdf)
+![AI-TOD comparison](img/ai2)
 
 **TinyPerson:**
 
-![TinyPerson comparison](img/RFig12.pdf)
+![TinyPerson comparison](img/tp3)
 
 ### Inference Options
 
