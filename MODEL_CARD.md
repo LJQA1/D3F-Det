@@ -112,11 +112,11 @@ The following figures present side-by-side detection comparisons between D3F-Det
 
 **AI-TOD:**
 
-![AI-TOD comparison](img/ai1.png)
+![AI-TOD comparison](img/ai2.png)
 
 **TinyPerson:**
 
-![TinyPerson comparison](img/tp1.png)
+![TinyPerson comparison](img/tp3.png)
 
 ---
 
