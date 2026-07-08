@@ -64,7 +64,7 @@ Pretrained weights for all three datasets are provided in the `weight/` director
 | Dataset | Weight File | mAP@0.5 | mAP@0.5:0.95 |
 |---|---|---|---|
 | VisDrone2019 | `weight/VisDrone.pt` | 49.5 | 30.3 |
-| AI-TOD | `weight/AI-TOD.pt` | 54.9 | 28.2 |
+| AI-TOD | `weight/AI-TOD.pt` | 50.1 | 22.6 |
 | TinyPerson | `weight/TinyPerson.pt` | 33.0 | 10.5 |
 
 ---
@@ -174,7 +174,7 @@ Side-by-side detection comparisons between D3F-Det and the baseline YOLOv12-s on
 | GPU | NVIDIA GeForce RTX 4090 (24 GB) |
 | Input size | 640 × 640 |
 | Training epochs | 200 |
-| Inference speed | ~84 FPS (FP16, RTX 4090) |
+| Inference speed | ~96 FPS (FP16, RTX 4090) |
 | Model parameters | 3.7 M |
 | GFLOPs | 44.0 |
 
