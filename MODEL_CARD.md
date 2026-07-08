@@ -86,7 +86,7 @@ For operational UAV imagery typically exceeding 2000×1500 pixels, patch-based i
 |---|---|---|
 | VisDrone2019 | Large-scale UAV-captured benchmark | https://github.com/VisDrone/VisDrone-Dataset |
 | AI-TOD | Aerial tiny object detection | https://github.com/jwwangchn/AI-TOD |
-| TinyPerson | Long-range tiny person detection | https://github.com/ucas-vg/TinyPerson |
+| TinyPerson | Long-range tiny person detection | https://github.com/mcxiaozheng/DataSet_TinyPerson |
 
 All datasets use their official training/validation splits without modification. See README Section 3 for download and preparation instructions.
 
