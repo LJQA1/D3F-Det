@@ -69,7 +69,7 @@ For expected runtime behavior, the following environment is assumed (see README 
 | Requirement | Specification |
 |---|---|
 | GPU | NVIDIA GPU with ≥ 4 GB VRAM (RTX 4090 used in paper) |
-| Inference speed | ~84 FPS (FP16, 640×640, RTX 4090) |
+| Inference speed | ~96 FPS (FP16, 640×640, RTX 4090) |
 | Python | 3.10+ |
 | PyTorch | 2.1+ |
 | CUDA | 12.1 |
@@ -97,7 +97,7 @@ All datasets use their official training/validation splits without modification.
 | Dataset | mAP@0.5 | mAP@0.5:0.95 |
 |---|---|---|
 | VisDrone2019 | 49.5 | 30.3 |
-| AI-TOD | 54.9 | 28.2 |
+| AI-TOD | 50.1 | 22.9 |
 | TinyPerson | 33.0 | 10.5 |
 
 See the paper (Tables 2–4) for full comparison results against state-of-the-art methods, and Tables 5–6 for ablation studies. Qualitative visual comparisons between D3F-Det and the baseline YOLOv12-s on real UAV-captured images from all three datasets are shown below.
