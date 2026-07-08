@@ -40,7 +40,7 @@ Our experiments are conducted on three classic aerial small object detection ben
 |---|---|
 | VisDrone2019 | https://github.com/VisDrone/VisDrone-Dataset |
 | AI-TOD | https://github.com/jwwangchn/AI-TOD |
-| TinyPerson | https://github.com/ucas-vg/TinyPerson |
+| TinyPerson | https://github.com/mcxiaozheng/DataSet_TinyPerson |
 
 ### Setup
 
